@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:allowBackup="false" android:label="@string/app_name" android:theme="@style/Theme.MesaCritica" android:icon="@mipmap/ic_launcher" android:supportsRtl="true">
+        <activity android:name=".IAActivity" android:exported="false"/>
+        <activity android:name=".DetalleActivity" android:exported="false"/>
+        <activity android:name=".AgregarActivity" android:exported="false"/>
+        <activity android:name=".ListaActivity" android:exported="false"/>
+        <activity android:name=".RegistroActivity" android:exported="false"/>
+        <activity android:name=".LoginActivity" android:exported="true">
+            <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+        </activity>
+    </application>
+</manifest>
